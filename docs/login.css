@@ -1,0 +1,86 @@
+#desktop{
+    display:block;
+}
+#mobile{
+    display:none;
+}
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    display:flex;
+    background-color:#ffffff;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hurb{
+    height:700px;
+    width: 1000px;
+}
+
+.background{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:#DDCECE;
+    height: 40%;
+}
+
+.buttons{
+    margin-bottom: 10vh;
+    font-size: 150%;
+}
+
+
+.email{
+    margin-bottom: 4vh;
+    height: 100px;
+    width: 900px;
+    background-color: #3468FC;
+    border: 0;
+    border-radius: 10vh;
+    font-size: 50px;
+    text-align: center;
+    color:#ffffff;
+
+}
+
+.password{
+    margin-bottom: 4vh;
+    height: 100px;
+    width: 900px;
+    background-color: #3468FC;
+    border: 0;
+    border-radius: 10vh;
+    font-size:50px;
+    text-align: center;
+    color:#ffffff;
+}
+
+.background2{
+    background-color:#ffffff;
+    height: 20vh;
+    width: 100%;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.check{
+    background-color: #ffffff;
+    color:#0063F7;
+    height: 150px;
+    width: 300px;
+    border:6;
+    border-radius: 10vw;
+    border-color: #0063F7;
+    font-size: 150%;
+}
+
